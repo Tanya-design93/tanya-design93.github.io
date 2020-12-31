@@ -1,5 +1,5 @@
 // two duplicate Images at the end, not a bug.
-var imageList = ['Images/cookingdonut.jpg', 'Images/friedonuts.jpg', 'Images/donutsballs.jpg', 'Images/Chef.jpg', 'Images/shopdonut.jpg', 'Images/cookingtime.jpg', 'Images/Donutsinprocess.jpg','Images/Makingdonuts.jpg', 'Images/Kidsdonuts.jpg','Images/Buttermilk.jpg','Images/cookingdonut.jpg', 'Images/friedonuts.jpg' ];
+var imageList = ['Images/cookingdonut.jpg', 'Images/friedonuts.jpg', 'Images/donutsballs.jpg', 'Images/Chef.jpg', 'Images/shopdonut.jpg', 'Images/Cookingtime.jpg', 'Images/Donutsinprocess.jpg','Images/Makingdonuts.jpg', 'Images/Kidsdonuts.jpg','Images/Buttermilk.jpg','Images/cookingdonut.jpg', 'Images/friedonuts.jpg' ];
 var boxArray = [];
 var setup = false;
 var menuItemArray;
