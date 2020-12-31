@@ -21,7 +21,7 @@ function addPicture(boxType, imageName) {
     img.style.width = "100%";
     img.style.height = "12.5vw";
     img.classList.add("img-fluid");
-    img.content = url(`../Images/${imageName}`);
+    img.content = "url('../Images/" + imageName + "');"
     //img.src = imageName;
     
     boxType.appendChild(img);

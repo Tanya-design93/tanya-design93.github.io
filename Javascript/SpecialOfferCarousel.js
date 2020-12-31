@@ -14,7 +14,7 @@ function addPicture(boxType, imageName) {
     img.style.width = "70%";
     img.style.width = "70%";
    // img.src = imageName;
-    img.content = url(`../Images/${imageName}`);
+   img.content = "url('../Images/" + imageName + "');"
     boxType.appendChild(img);
 
     var shadow = document.createElement('div');
