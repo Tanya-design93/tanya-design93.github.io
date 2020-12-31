@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Darker+Grotesque&family=Gruppo&family=Jacques+Francois+Shadow&family=JetBrains+Mono:ital,wght@0,100;0,400;1,100&family=Julius+Sans+One&family=Noto+Sans+KR:wght@300&family=Noto+Serif&display=swap');
+
+
+#findusparagraph {
+
+    color:tomato;
+   
+    font-family: 'Amatic SC', cursive;
+    font-size:80px;
+    text-align:center;
+}

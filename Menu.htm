@@ -1,0 +1,88 @@
+<html>
+   <head>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="Css/waveinmenusection.css" defer/>
+      <link rel="stylesheet" href="Css/imageCover.css" defer/>
+      <link rel="stylesheet" href="Css/columncolorbackgroundinmenu.css" defer/>
+      <link rel="stylesheet" href="Css/Menuparagraph.css" defer/>
+      <link rel="stylesheet" href="Css/navbar.css" defer/>
+      <link rel="stylesheet" href="Css/backgroundImage.css" />
+      <link rel="stylesheet" href="Css/Menu.css" defer/>
+      <link rel="stylesheet" href="Css/MenuTextStyling.css" defer/>
+      <link rel="stylesheet" href="Css/numberCircle.css" defer/>
+      <script src="Javascript/cart.js"></script>
+      <script src="Javascript/menu.js"></script>
+      <style>
+         /* navbar */
+         .navbar
+         {
+         background-color: #fffceb;
+         border-color: #f3f4f5;
+         }
+         .container-fluid{
+         padding:0px;
+         }
+      </style>
+   </head>
+   <body onload="filterSelection('all')">
+      <div class="container-fluid">
+      <div class="menu-bg">
+      <nav class="navbar navbar-light navbar-1 white">
+        
+        
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
+            aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent15">
+            
+            <ul class="navbar-nav mr-auto">
+               <li class="nav-item active">
+                  <a class="nav-link" href="Homepagesite.htm">Home <span class="sr-only">(current)</span></a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="Menu.htm">Menu</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="Ourkitchen.htm">Our kitchen</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="Contact.htm">Contact</a>
+               </li>
+            </ul>
+         </div>
+         <img src = "images/cart.png" style="width:4%;position: absolute; top:1%;right:1%;" class="img-fluid">
+         <div id="cartcount" class="numberCircle">30</div>
+        
+         
+      </nav>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+         <path fill="#fffceb" fill-opacity="1" d="M0,160L60,149.3C120,139,240,117,360,106.7C480,96,600,96,720,117.3C840,139,960,181,1080,192C1200,203,1320,181,1380,170.7L1440,160L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path>
+      </svg>
+      <div class='row'>
+         <div class="col-sm" style="background-color: white;">
+            <img src = "images/donutdraw.png" style="margin-top:-10vw; margin-left:6vw; width:9%;" class="img-fluid"> 
+            <p id="menutitle" >The menu </p>
+            <img src = "images/pot.png" style="margin-top:-27vw; margin-left:49vw; width:8%;" class="img-fluid"> 
+            <img src = "images/ask.png" style="margin-top:-15vw; margin-left:80vw; width:6%;" class="img-fluid"> 
+           </div>
+      </div>
+      <div class="row">
+         <div class="col-sm-4" ></div>
+            <div id="myBtnContainer"  class="col text-center">
+               <button class="btn" onclick="filterSelection('daily donuts')" >Daily donuts</button>
+               <button class="btn" onclick="filterSelection('special donuts')">Special donuts</button>
+               <button class="btn" onclick="filterSelection('bagel')"> Bagels</button>
+               <button class="btn" onclick="filterSelection('drinks')"> Drinks</button>
+               <button class="btn" onclick="filterSelection('all')">All</button> 
+            </div>
+            <div class="col-sm-4" ></div>
+         </div>
+      </div>
+      <div class="container">
+         <div id="foodItems" class='row'>
+         </div>
+      </div>
+   </body>
+</html>

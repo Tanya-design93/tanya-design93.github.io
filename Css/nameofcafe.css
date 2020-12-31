@@ -1,0 +1,48 @@
+
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:400,400i,700&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Darker+Grotesque&family=Gruppo&family=Jacques+Francois+Shadow&family=JetBrains+Mono:ital,wght@0,100;0,400;1,100&family=Julius+Sans+One&family=Noto+Sans+KR:wght@300&family=Noto+Serif&display=swap');
+
+
+
+
+
+.nameofpage{
+  text-align: center;
+  color:grey;
+  font-family: 'Amatic SC', cursive;
+  font-size: 40px;
+
+}
+
+
+/* div[class^="col"]
+{
+  border:solid;
+  border-color: red;
+  border-width: 5px;
+} */
+
+.pageBuffer{
+  height: 35.5vh;
+}
+
+.equal {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+  .row.equal {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+
+ add this for full height column content 
+.equal > div[class*='col-'] {  
+  display: flex;
+  flex-direction: column;
+}

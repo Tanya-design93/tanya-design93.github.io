@@ -1,0 +1,55 @@
+// two duplicate images at the end, not a bug.
+var imageList = ['images/cookingdonut.jpg', 'images/friedonuts.jpg', 'images/donutsballs.jpg', 'images/Chef.jpg', 'images/shopdonut.jpg', 'images/cookingtime.jpg', 'images/Donutsinprocess.jpg','images/Makingdonuts.jpg', 'images/Kidsdonuts.jpg','images/Buttermilk.jpg','images/cookingdonut.jpg', 'images/friedonuts.jpg' ];
+var boxArray = [];
+var setup = false;
+var menuItemArray;
+
+
+function carousel() {
+    menuItemArray = document.querySelectorAll("[class^='menuItems']");
+    console.log( menuItemArray.length);
+    for(i = 0; i < menuItemArray.length; i++){
+        console.log( menuItemArray.length);
+        addPicture(menuItemArray[i],imageList[i]);
+    }
+}
+
+
+function addPicture(boxType, imageName) {
+    var img = document.createElement('img');
+    img.id = imageName;
+    img.style.width = "100%";
+    img.style.height = "12.5vw";
+    img.classList.add("img-fluid");
+    img.src = imageName;
+    
+    boxType.appendChild(img);
+}
+
+function changeImage() {
+    if (!setup) {
+        for(i = 0; i < menuItemArray.length;i++){
+            boxArray.push(menuItemArray[i].childNodes[0]);
+        }
+        setup = true;
+    }
+    else
+    {
+        for(i = 0; i < boxArray.length;i++)
+        {
+            changeOrder(boxArray[i]);
+        }
+    }
+}
+
+function changeOrder(imageElement) {
+    var length = imageList.length;
+
+    var position = imageList.indexOf(imageElement.id) - 1;
+    position = position + 2;
+    if (length <= position) {
+        imageElement.src = imageElement.id = imageList[0];
+    } else {
+        imageElement.src = imageElement.id = imageList[position];
+    }
+}

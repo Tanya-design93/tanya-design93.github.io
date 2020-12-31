@@ -1,0 +1,106 @@
+<html>
+   <head>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="Css/navbar.css" defer/>
+      <link rel="stylesheet" href="Css/ourkitchenparagraph.css" defer/>
+      <link rel="stylesheet" href="Css/Menu.css" defer/>
+      <link rel="stylesheet" href="Css/Ourkitchen.css" defer/>
+      <link rel="stylesheet" href="Css/Galleryparagraph.css" defer/>
+      <script src="Javascript/menu.js"></script>
+      <script src="Javascript/ResizeOurKitchenMenu.js"></script>
+      <script src="Javascript/OurKitchenCarousel.js"></script> 
+      <style>
+         .testing{
+         content: "";
+         bottom: -1rem;
+         height: 40%;
+         background-image: radial-gradient(rgba(161,161,161,0.5), rgba(162,161,161,0.4) 15%, rgba(162,161,161,0.1) 50%, rgba(162,161,161,0) 70%);
+         opacity: 1;
+         transform: scale(1);
+         transition: inherit;
+         z-index: 100;
+         }
+      </style>
+   </head>
+   <body onload="carousel()">
+      <nav class="navbar navbar-light navbar-1 white">
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
+         aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent15">
+         
+         <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+               <a class="nav-link" href="Homepagesite.htm">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="Menu.htm">Menu</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="Ourkitchen.htm">Our kitchen</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="Contact.htm">Contact</a>
+            </li>
+         </ul>
+      </div>
+         <img src = "images/cart.png" style="margin-top:1px; margin-left:65vw; width:4%;" class="img-fluid">
+      </nav>
+      <div class="container px-0 ">
+         <div class='row'>
+            <div class="col-sm" style="background-color:white">
+               <span class="col-sm-6">
+                  <p id = "ourkitchentitle">Our kitchen</p>
+               </span>
+            </div>
+         </div>
+      </div>
+      
+      <div class="container-fluid px-0 ">
+         <img src = "images/hat.png"style="width:8%;margin-right:60vw; margin-top:-5vw; class= img-fluid"> 
+         <img src = "images/spoon.png"style="width:10%; margin-right:20vw; class= img-fluid"> 
+         <div class='row container-fluid'>
+            <div class="col-1 responsive"></div>
+            <div class="col-6 responsive" style="background-color: rgb(245, 244, 224);">
+               
+               <h1 id="ourKitchen" >Our story</h1>
+               <p>The Company was founded in 2018 in Ottawa as a family business. Our main factor of success was that our donuts were cooked every day and we provided a large variety of choices. After which, we had begun to advertise our cafe on social media. After our success in social media, in 2019, we opened our first restaurant!</p>
+               <p>Our restaurant became a unique place due to our impressive variety, and as a result, we have a tremendous amount of amazing clients from around the world.  Moreover, we utilize new technology to help bake with all natural products. Since 2020, We met a new milestone within our company, we now offer the ability for our customers to customize their own donuts for their merry celebrations. We know our business will be growing with our wonderful customer base.</p>
+            </div>
+            <div class="col-4 responsive" style="background-color: white;">
+               <img src = "images/dessert.jpg" class="img-fluid">        
+            </div>
+         </div>
+         <div class="row">
+            </br>
+         </div>
+      </div>
+      <div class="container=fluid">
+         <p id = "Gallerytitle">Gallery</p>
+         <div class="row align-items-center p-5 ">
+            <div class="menuItems col" onclick="changeImage()"></div>
+
+            <div class="menuItems col"  onclick="changeImage()"></div>
+
+            <div class="menuItems col"  onclick="changeImage()"></div>
+
+            <div class="menuItems col"  onclick="changeImage()"></div>
+
+            <div class="menuItems col"  onclick="changeImage()"></div>
+         </div>
+         <div class="row align-items-center p-5">
+
+            <div class="menuItems col" onclick="changeImage()"></div>
+
+            <div class="menuItems col"  onclick="changeImage()"></div>
+
+            <div class="menuItems col"  onclick="changeImage()"></div>
+
+            <div class="menuItems col"  onclick="changeImage()"></div>
+
+            <div class="menuItems col"  onclick="changeImage()"></div>
+         </div>
+   </body>
+</html>
