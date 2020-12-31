@@ -1,4 +1,4 @@
-var imageList = ['Images/reddonut.png', 'Images/purpledonut.png', 'Images/twocolordonut.png', 'Images/whitedonut.png', 'Images/greendonut.png', 'Images/lemondonut.png'];
+var imageList = ['Images/reddonut.png', 'Images/purpledonut.png', 'Images/twocolordonut.png', 'Images/Whitedonut.png', 'Images/greendonut.png', 'Images/lemondonut.png'];
 var boxArray;
 var setup = false;
 
