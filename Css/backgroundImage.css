@@ -1,12 +1,12 @@
 body, html {
-    height: 100%;
+    height: 80%;
   }
   
   .bg { 
     /* The image used */
     background-image: url("../Images/Homepageimgnewagain.png");
     /* Full height */
-    height: 100%; 
+    height: 80%; 
   
     /* Center and scale the image nicely */
     background-position: center;
