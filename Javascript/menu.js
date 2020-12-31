@@ -1,5 +1,5 @@
 var dailydonutsArray = ["Images/carameldonut.png","Images/coco.png","Images/cocodonut.png","Images/beigedonut.png","Images/browndonut.png","Images/secondwhite.png","Images/nutdonut.png", "Images/chocowhitedonut.png", "Images/simpledonut.png" ];
-var specialdonutsArray = ["Images/reddonut.png","images/purpledonut.png","images/twocolordonut.png","images/whitedonut.png","images/greendonut.png", "images/lemondonut.png"];
+var specialdonutsArray = ["Images/reddonut.png","Images/purpledonut.png","Images/twocolordonut.png","Images/whitedonut.png","Images/greendonut.png", "Images/lemondonut.png"];
 var bagelArray = ["Images/bagelfirst.png","Images/baconbagel.png"];
 
 var drinksArray = ["Images/tea.png","Images/coffeenew.png","Images/egnog.png","Images/boba.png", "Images/coca.png", "Images/milkshaketwonew.png"];
