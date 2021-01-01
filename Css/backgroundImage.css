@@ -26,37 +26,37 @@
   @media (min-width: 0px) {
     .splashPage{
     
-        width: 100px;
-        height: 100px;
+        width: 500px;
+        height: 219px;
     }
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
     .splashPage{
-        width: 350px;
-        height: 350px;
+        width: 700px;
+        height: 306.6px;
     }
 }
 
 @media (min-width: 768px) { 
     .splashPage{
-        width: 500px;
-        height: 500px;  
+        width: 900px;
+        height: 394.2px;  
     }
  }
 
 
 @media (min-width: 992px) { 
     .splashPage{
-        width:700px;
-        height:700px;
+        width:1100px;
+        height:481.8px;
     }
  }
 
 
 @media (min-width: 1200px) { 
     .splashPage{
-        width:1000px;
-        height:1000px;
+        width:80vw;
+        height:35.04vw;
     }
  }
