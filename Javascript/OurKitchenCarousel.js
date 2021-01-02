@@ -12,6 +12,7 @@ function carousel() {
         console.log( menuItemArray.length);
         addPicture(menuItemArray[i],imageList[i]);
     }
+    changeImage();
 }
 
 
