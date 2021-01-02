@@ -80,7 +80,7 @@
       <div class="container=fluid">
          <p id = "Gallerytitle">Gallery</p>
          <div class="row align-items-center p-5 ">
-            <div class="menuItems col" onclick="changeImage()"></div>
+            <div id="firstElementInGallery" class="menuItems col" onclick="changeImage()"></div>
 
             <div class="menuItems col"  onclick="changeImage()"></div>
 
@@ -103,7 +103,7 @@
             <div class="menuItems col"  onclick="changeImage()"></div>
          </div>
          <script>
-               changeImage();
+               document.getElementById('firstElementInGallery').click();
          </script>
    </body>
 </html>
