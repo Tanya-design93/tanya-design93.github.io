@@ -1,19 +1,73 @@
+@media (min-width: 0px) {
+  .circle1
+  {
+      width: 50px;
+      height: 50px;
+  }
+  .circle2{
+    width: 50px;
+    height: 50px;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .circle1{
+      width: 75px;
+      height: 75px;
+  }
+  
+  .circle2{
+    width: 75px;
+    height: 75px;
+  }
+}
 
-.circle1 {
-    background: rgb(238, 132, 132);
-    border-radius: 50%;
-    width: 330px;
-    height: 330px;
+@media (min-width: 768px) { 
+  .circle1{
+      width: 50px;
+      height: 50px;  
+  }
+  .circle2{
+    width: 50px;
+    height: 50px; 
+  }
+}
+
+
+@media (min-width: 992px) { 
+  .circle1{
+      width:75px;
+      height:75px;
+  }
+  .circle2{
+    width:75px;
+    height:75px;
+  }
+}
+
+
+@media (min-width: 1200px) { 
+  .circle1{
+      width:100px;
+      height:100px;
+  }
+  .circle2{
+    width:100px;
+    height:100px;
+  }
+}
+.circle1
+{
     margin-top: 10vw;
     margin-left: -5vw;
+    background: rgb(238, 132, 132);
+    border-radius: 50%;
 }
 
 
 .circle2 {
     background: rgb(165, 121, 89);
     border-radius: 50%;
-    width: 360px;
-    height: 360px;
     left: 60%;
     margin-top: 12vw;
     margin-right: 80vw;
