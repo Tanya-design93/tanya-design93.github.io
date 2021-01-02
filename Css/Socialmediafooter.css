@@ -1,7 +1,6 @@
 #Socialmediafield {
     background-image: url("../Images/wave\ \(1\).png");
     background-position:center;
-    background-size: cover; /* Resize the background image to cover the entire container */
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
