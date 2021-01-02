@@ -12,7 +12,6 @@
 .circle2 {
     background: rgb(165, 121, 89);
     border-radius: 50%;
-    position: absolute;
     width: 360px;
     height: 360px;
     left: 60%;
