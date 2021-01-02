@@ -1,0 +1,37 @@
+@media (min-width: 0px) {
+    .ingredientlist{
+    
+        width: 500px;
+        height: 219px;
+    }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .ingredientlist{
+        width: 700px;
+        height: 306.6px;
+    }
+}
+
+@media (min-width: 768px) { 
+    .ingredientlist{
+        width: 900px;
+        height: 394.2px;  
+    }
+ }
+
+
+@media (min-width: 992px) { 
+    .ingredientlist{
+        width:1100px;
+        height:481.8px;
+    }
+ }
+
+
+@media (min-width: 1200px) { 
+    .ingredientlist{
+        width:80vw;
+        height:35.04vw;
+    }
+ }
