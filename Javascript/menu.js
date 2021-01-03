@@ -50,7 +50,7 @@ function addElement(parentContainer, elementId, descriptionText) {
 
   column.appendChild(CreateImageElement(elementId));
   column.appendChild(CreateColumnDescriptionText(descriptionText.split("$")));
-  column.appendChild(CreateAddToCartButton(descriptionText.split("$")[0]));
+//  column.appendChild(CreateAddToCartButton(descriptionText.split("$")[0]));
   column.id = (descriptionText.split("$")[0].trim());
   parentContainer.appendChild(column);
 }
@@ -84,7 +84,6 @@ function CreateColumnDescriptionText(descriptionArray)
    columnDescription.classList.add("MenuTextStyling");
    return columnDescription;
 }
-
 function CreateAddToCartButton(productName)
 {
   var addToCartButton = document.createElement("BUTTON");
