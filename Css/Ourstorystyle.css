@@ -25,16 +25,16 @@
 
 
 @media (min-width: 992px) { 
-    .ingredientlist{
-        width:1000px;
-        height:1000px;
+    .ourkitchenstyleimg{
+        margin-left: 1000px;
+        margin-right: 1000px; 
     }
  }
 
 
 @media (min-width: 1200px) { 
-    .ingredientlist{
-        width:80vw;
-        height:35.04vw;
+    .ourkitchenstyleimg{
+        margin-left: 200px;
+        margin-right: 200px; 
     }
  }
