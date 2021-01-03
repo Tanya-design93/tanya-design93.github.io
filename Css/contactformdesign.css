@@ -1,65 +1,65 @@
 @media (min-width: 0px) {
   .circle1
   {
-      width: 50px;
-      height: 50px;
+      width: 100px;
+      height: 100px;
   }
   .circle2{
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
   }
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   .circle1{
-      width: 75px;
-      height: 75px;
+      width: 200px;
+      height: 200px;
   }
   
   .circle2{
-    width: 75px;
-    height: 75px;
+    width: 200px;
+    height: 200px;
   }
 }
 
 @media (min-width: 768px) { 
   .circle1{
-      width: 50px;
-      height: 50px;  
+      width: 200px;
+      height: 200px;  
   }
   .circle2{
-    width: 50px;
-    height: 50px; 
+    width: 200px;
+    height: 200px; 
   }
 }
 
 
 @media (min-width: 992px) { 
-  .circle1{
-      width:75px;
-      height:75px;
+  .circle1 {
+      width:200px;
+      height:200px;
   }
   .circle2{
-    width:75px;
-    height:75px;
+    width:200px;
+    height:200px;
   }
 }
 
 
 @media (min-width: 1200px) { 
   .circle1{
-      width:100px;
-      height:100px;
+      width:300px;
+      height:300px;
   }
   .circle2{
-    width:100px;
-    height:100px;
+    width:300px;
+    height:300px;
   }
 }
 .circle1
 {
-    margin-top: 16vw;
-    margin-left: -8vw;
+    margin-top: 10vw;
+    margin-left: 12vw;
     background: rgb(238, 132, 132);
     border-radius: 70%;
 }
