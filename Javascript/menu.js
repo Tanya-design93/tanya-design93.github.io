@@ -47,7 +47,6 @@ function addElement(parentContainer, elementId, descriptionText) {
   // Adds a food item to the menu.
   var parentContainer = document.getElementById(parentContainer);
   var column = CreateColumn();
-
   column.appendChild(CreateImageElement(elementId));
   column.appendChild(CreateColumnDescriptionText(descriptionText.split("$")));
   column.appendChild(CreateAddToCartButton(descriptionText.split("$")[0]));
@@ -58,7 +57,7 @@ function addElement(parentContainer, elementId, descriptionText) {
 function CreateColumn()
 {
   var col = document.createElement("div");
-  col.classList.add("col-md-4");
+  col.classList.add("col-md-2 p-3 col-sm-offset-2");
   col.classList.add("background-color-effect");
   return col;
 }
