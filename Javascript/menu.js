@@ -59,7 +59,8 @@ function CreateColumn()
   var col = document.createElement("div");
   col.classList.add("col-md-3");
   col.classList.add("m-3");
-  col.classList.add("d-flex justify-content-center");
+  col.classList.add("d-flex");
+  col.classList.add("justify-content-center");
   col.classList.add("background-color-effect");
   return col;
 }
