@@ -57,7 +57,9 @@ function addElement(parentContainer, elementId, descriptionText) {
 function CreateColumn()
 {
   var col = document.createElement("div");
-  col.classList.add("col-md-2 p-3 col-sm-offset-2");
+  col.classList.add("col-md-2");
+  col.classList.add("p-3");
+  col.classList.add("col-sm-offset-2");
   col.classList.add("background-color-effect");
   return col;
 }
