@@ -1,0 +1,40 @@
+@media (min-width: 0px) {
+    .ourkitchenstyleimg{
+    
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+ 
+
+    }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .ourkitchenstyleimg{
+        margin-left:  600px;
+        margin-right:  600px;
+    }
+}
+
+@media (min-width: 768px) { 
+    .ourkitchenstyleimg{
+        margin-left: 800px;
+        margin-right: 800px;  
+    }
+ }
+
+
+@media (min-width: 992px) { 
+    .ingredientlist{
+        width:1000px;
+        height:1000px;
+    }
+ }
+
+
+@media (min-width: 1200px) { 
+    .ingredientlist{
+        width:80vw;
+        height:35.04vw;
+    }
+ }
