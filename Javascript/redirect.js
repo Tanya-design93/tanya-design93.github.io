@@ -13,7 +13,7 @@ function redirect(webpage)
             location.replace(prefix + "Menu.htm");
             break;
         case "ourkitchen":
-            location.replace(prefix + "OurKitchen.htm");
+            location.replace(prefix + "Ourkitchen.htm");
             break;
         default:
             location.replace("https://thisiswhyimbroke.com");
