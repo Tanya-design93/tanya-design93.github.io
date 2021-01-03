@@ -58,10 +58,10 @@
 }
 .circle1
 {
-    margin-top: 10vw;
-    margin-left: -5vw;
+    margin-top: 16vw;
+    margin-left: -8vw;
     background: rgb(238, 132, 132);
-    border-radius: 50%;
+    border-radius: 70%;
 }
 
 
@@ -69,8 +69,8 @@
     background: rgb(165, 121, 89);
     border-radius: 50%;
     left: 60%;
-    margin-top: 12vw;
-    margin-right: 80vw;
+    margin-top: 18vw;
+    margin-right: 50vw;
 }
 
 
