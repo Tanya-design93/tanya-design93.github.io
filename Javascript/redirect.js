@@ -1,18 +1,19 @@
 function redirect(webpage)
 {
+    var prefix = "https://tanya-design93.github.io/";
     switch(webpage)
     {
         case "contact":
-            location.replace("Contact.htm");
+            location.replace(prefix + "Contact.htm");
             break;
         case "homepage":
-            location.replace("Homepagesite.htm");
+            location.replace(prefix + "Homepagesite.htm");
             break;
         case "menu":
-            location.replace("Menu.htm");
+            location.replace(prefix + "Menu.htm");
             break;
         case "ourkitchen":
-            location.replace("OurKitchen.htm");
+            location.replace(prefix + "OurKitchen.htm");
             break;
         default:
             location.replace("https://thisiswhyimbroke.com");
