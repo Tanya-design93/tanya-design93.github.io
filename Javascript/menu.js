@@ -69,7 +69,8 @@ function CreateImageElement(elementId){
   imageElement.src = elementId;
   imageElement.classList.add("imageCover");
   imageElement.classList.add("img-fluid");
-  imageElement.classList.add("mx-auto d-block");
+  imageElement.classList.add("mx-auto");
+  imageElement.classList.add("d-block");
   return imageElement;
 }
 
