@@ -78,6 +78,7 @@ function CreateColumnDescriptionText(descriptionArray)
    var textOne = document.createTextNode(descriptionArray[0]);
    textTwo = document.createTextNode("$" + descriptionArray[1]);
    columnDescription.appendChild(textOne);  
+   columnDescription.style.width = "18vw";
    columnDescription.appendChild(document.createElement("br"));
    columnDescription.appendChild(textTwo);
    columnDescription.classList.add("MenuTextStyling");
