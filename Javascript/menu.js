@@ -57,7 +57,8 @@ function addElement(parentContainer, elementId, descriptionText) {
 
 function CreateColumn()
 {
-  var col = document.createElement("col-md-3");
+  var col = document.createElement("div");
+  col.classList.add("col-md-3");
   col.classList.add("background-color-effect");
   col.classList.add("pl-2");
   return col;
@@ -78,7 +79,6 @@ function CreateColumnDescriptionText(descriptionArray)
    var textOne = document.createTextNode(descriptionArray[0]);
    textTwo = document.createTextNode("$" + descriptionArray[1]);
    columnDescription.appendChild(textOne);  
-   columnDescription.style.width = "18vw";
    columnDescription.appendChild(document.createElement("br"));
    columnDescription.appendChild(textTwo);
    columnDescription.classList.add("MenuTextStyling");
