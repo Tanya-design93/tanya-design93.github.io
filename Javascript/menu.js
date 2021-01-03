@@ -5,7 +5,7 @@ var bagelArray = ["Images/bagelfirst.png","Images/baconbagel.png"];
 var drinksArray = ["Images/tea.png","Images/coffeenew.png","Images/egnog.png","Images/boba.png", "Images/coca.png", "Images/milkshaketwonew.png"];
 
 var drinksArrayText = ["Tea $3","Latte $5","Eggnog $4", "Boba $8", "Coca cola $3", "Milkshake $6",];
-var specialdonutsArrayText =["Strawberry donut $36/per dozen",'Blueberry donut $36/per dozen','Coconut donut $36/per dozen','White chocolate donut $36/per dozen','Pistachio donut $36/per dozen', 'Lemon donut $36/per dozen'];
+var specialdonutsArrayText =["Strawberry donut $36/per dozen",'Blueberry donut $36/per dozen','Coconut donut $36/per dozen','Pistachio donut $36/per dozen', 'Lemon donut $36/per dozen'];
 var bagelArrayText =["Proshuto bagel $10","Bacon bagel $8"];
 var dailydonutsArrayText =["Caramel donut $20/per dozen","Dark chocolate $20/per dozen","Cacao donut $25/ per dozen","Vanila donut $19/per dozen","Milky donut $22/per dozen","Brown sugar donut $17/per dozen","Nuts donut $18/per dozen", "Coco powder donut $15/per dozen", "Classic donut $13/per dozen"];
 
