@@ -60,7 +60,6 @@ function CreateColumn()
   var col = document.createElement("div");
   col.classList.add("col-md-4");
   col.classList.add("background-color-effect");
-  col.classList.add("pl-2");
   return col;
 }
 
