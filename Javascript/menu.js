@@ -59,7 +59,7 @@ function CreateColumn()
   var col = document.createElement("div");
   col.classList.add("col-md-3");
   col.classList.add("m-3");
-  col.classList.add("col-sm-offset-3");
+  col.classList.add("col-md-offset-2");
   col.classList.add("background-color-effect");
   return col;
 }
