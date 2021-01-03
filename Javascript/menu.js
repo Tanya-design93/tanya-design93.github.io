@@ -58,7 +58,7 @@ function addElement(parentContainer, elementId, descriptionText) {
 function CreateColumn()
 {
   var col = document.createElement("div");
-  col.classList.add("col-md-3");
+  col.classList.add("col-md");
   col.classList.add("background-color-effect");
   col.classList.add("pl-2");
   return col;
