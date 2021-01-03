@@ -58,7 +58,10 @@ function CreateColumn()
 {
   var col = document.createElement("div");
   col.classList.add("col-md-3");
-  col.classList.add("m-3");
+  col.classList.add("mt-3");
+  col.classList.add("mb-3");
+  col.classList.add("mr-3");
+  col.classList.add("ml-5");
   col.classList.add("background-color-effect");
   return col;
 }
