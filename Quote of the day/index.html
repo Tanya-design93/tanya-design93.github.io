@@ -1,0 +1,78 @@
+<html>
+  <head>
+    <script src="quotegenerator.js">
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+    #Box {
+      border: 3px solid black;
+      width:75vw;
+      ;
+      height:50vh;
+    }
+    h1 {
+      color:black;
+      font-family: 'Baloo 2', cursive;
+      width:100%;
+      text-align: center;
+    }
+    .button {
+      background-color: #815e37;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      position: absolute;
+      top:34%;
+      left:35vw;
+    }
+    img {
+      padding: -300px;
+      width: 150px;
+    }
+    .quoteImage{
+      width:"200px";
+      height:"200px";
+      position:absolute;
+      top:0%;
+      left:65%;
+      font-size: 80px;
+    }
+    .quoteText{
+      position: absolute;
+      top:25%;
+      width:75vw;
+      text-align: center;
+    }
+    .spinner{
+      font-size:64px;
+      visibility: hidden;
+      position: absolute;
+      top:34%;
+      left:38vw;
+    }
+  </style>
+  <body>
+    <div id="Box">
+      <h1>Quote of the day
+      </h1>
+      <img src="images/quotationmarks.png"  class="quoteImage">
+      <div id="quoteText" class="quoteText">
+      </div>
+      <button id="Quotebutton"class="button" onclick="MainMethod()">Click me
+      </button>
+      <i id="spinner" class="fa fa-spinner w3-spin spinner" >
+      </i>
+    </div>
+    </div>
+  </body>
+</html>
