@@ -1,0 +1,96 @@
+@media (min-width: 0px) {
+    #buttonstyle {
+    width:25vw;
+    font-size: 4vw;
+        
+    }
+    #Homepageparagraph {
+        font-size: 20vw;
+        margin-left:10%;
+        color: cornsilk;
+    }
+
+    /* #lightBulb
+    {
+        float: right; 
+        padding-right:-20px; 
+        padding: top 20px;
+    } */
+
+    }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    #buttonstyle{ 
+        width:25vw;
+    font-size: 4vw;
+    }
+    #Homepageparagraph {
+        font-size: 20vw;
+        margin-left:10%;
+        color: cornsilk;
+    }
+    /* #lightBulb
+    {
+        float: right; 
+        padding-right:-20px; 
+        padding: top 20px;
+    } */
+}
+
+@media (min-width: 768px) { 
+    #buttonstyle{
+        width:25vw;
+        font-size: 4vw;
+    }
+    #Homepageparagraph 
+    {
+        font-size: 10vw;
+        margin-left:10%;
+        color: cornsilk;
+    }
+    /* #lightBulb
+    {
+        float: right; 
+        padding-right:-20px; 
+        padding: top 20px;
+    } */
+ }
+
+
+@media (min-width: 992px) { 
+    #buttonstyle{
+        width:25vw;
+        font-size: 4vw;
+    }
+    #Homepageparagraph {
+        font-size: 5vw;
+        margin-left:10%;
+        color: cornsilk;
+    }
+    #lightBulb
+    {
+        float: right; 
+        padding-right:-20px; 
+        padding: top 20px;
+    }
+ }
+
+
+@media (min-width: 1200px) { 
+    #buttonstyle{
+        width:25vw;
+        font-size: 4vw;
+    }
+    #Homepageparagraph {
+        margin-left:10%;
+        color: cornsilk;
+        font-size: 5vw;
+    }
+    #lightBulb
+    {
+        float: right; 
+        padding-right:-20px; 
+        padding: top 20px;
+    }
+ }

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <link rel="stylesheet" href="Button.css" /> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <style>
+
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    background-color:rgb(119, 174, 247); 
+    z-index:-1;
+    border-bottom-right-radius: 60%;
+   
+
+}
+
+.button {
+          background-color:rgb(14, 88, 184);
+          border: none;
+          color: white; 
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 20px;
+          margin: 6px 5px;
+          cursor: pointer;
+          border-radius:20px;
+        }
+
+    </style>
+</head>
+
+    <body>
+        <div class="container-fluid">
+
+
+
+            <div class="row" >
+                <div class="col-md-6" >               
+                    <div id="content">
+                        <img src="Images/Flashcardslogothree.png" style="float: left; padding-top: 50px;" class="img-fluid  mx-auto d-block" > 
+                        <div id="background">
+                           
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                
+                <div class="col-lg-6">
+                <p id="Homepageparagraph">Smart Flashcards</p>
+                 <input id="buttonstyle" type="button"style="margin-top:50%; margin-left:43%;" class="button" value="Get started" onclick="document.location='index.html'" class="img-fluid  mx-auto d-block" >  
+               
+            </div>
+                <div class="col-lg-6">
+                        <img id="lightBulb" src="Images/light.png" class="img-fluid  mx-auto d-block">  
+                </div>
+            </div>
+
+
+
+
+
+        </div>  
+    </body>
+</html>

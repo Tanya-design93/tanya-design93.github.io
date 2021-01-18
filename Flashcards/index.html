@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="Boxwithanswer.css" /> 
+  <link rel="stylesheet" href="BasicButtonStyling.css"/>
+<script src="Flashcards.js"></script>
+
+    <style>
+         #Firstbox {
+        border: 4px solid rgb(187, 213, 243);
+        padding: 70px;
+        margin: 5px;  
+        border-radius:60px;
+        background-color: rgb(187, 213, 243);
+      } 
+
+        </style>
+</head>
+
+<body onload="StartUp()">
+  <div class="container-fluid";>
+    <div class="row";>
+        <div class="col-4";>
+          <input type="button" class="button" value="Create flashcard">
+        </div>
+    </div>   
+    <div class="row ">
+      <div class="col-4" style="border:solid" id="Firstbox">
+          <p>Question </p> 
+          <textarea id="question" style="border-radius: 13px;"></textarea> 
+          <p>Answer</p> 
+          <textarea id="answer" style="border-radius: 13px;"></textarea> 
+      </br>
+          <input id="flashCardTemplateButtontype" onclick="Validate()" class="button" value="Save"> 
+        </div> 
+      </div> 
+    <div class="row" id="flashCardPreview";></div>
+  </div>
+  
+
+   
+</body>
+</html>
