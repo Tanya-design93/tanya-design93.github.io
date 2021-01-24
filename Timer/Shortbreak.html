@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+      <script src="shortbreak.js"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+         @import url('https://fonts.googleapis.com/css2?family=Handlee&family=Roboto:wght@300&display=swap');
+         #demo {
+         text-align: center;
+         font-size: 40px;
+         color: white;
+         }
+         #Pomodoro{
+         background-image : url("images/tomatoparty.png");
+         background-repeat: no-repeat;
+         background-size:contain;
+         background-position:center;
+         }
+         #pomodoro-start {
+         text-align: center;
+         font-size: 25px;
+         color: black;
+         border-style: hidden;
+         background-color:orange;
+         border-radius: 20px;
+         }
+         #Paragraphtwo {
+         font-size: 20px;
+         font-family: 'Roboto', sans-serif;
+         margin-top: 30px;
+         text-align: center;
+         font-weight: bold;
+         }
+         a {
+         color: green;
+         font-size: 17px;
+         }
+         a:hover{
+         color: grey;
+         }
+      </style>
+   </head>
+   <body>
+      <ul class="nav justify-content-center">
+         <li class="nav-item">
+            <a class="nav-link active" href="index.html">Pomodoro</a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" href="Shortbreak.html">Short break</a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" href="Longbreak.html">Long break</a>
+         </li>
+      </ul>
+      <div class="container-fluid">
+         <div class="row-fluid">
+            <div id="Pomodoro" class="col-md col-lg ml-auto d-flex align-items-center  mt-md-0 mx-auto" style="height:50vh;">
+               <p id="demo" class ="mx-auto"> 05:00</p>
+            </div>
+         </div>
+         <div class="col-md col-lg ml-auto d-flex align-items-center mt-md-0 mx-auto" ></div>
+         <p id ="Paragraphtwo"class="mx-auto">Time for a break!</p>
+      </div>
+      <div class="col-md col-lg ml-auto d-flex align-items-center mt-md-0 mx-auto" >
+         <div id="pomodoro-clock-actions" class="mx-auto">
+            <button id="pomodoro-start" onclick="StartStop()">Start</button>
+         </div>
+      </div>
+      </div>
+   </body>
+</html>
