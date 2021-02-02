@@ -1,0 +1,11 @@
+.shadowAffect{
+    content: "";
+    bottom: -1rem;
+    height: 40%;
+    background-image: radial-gradient(rgba(161,161,161,0.5), rgba(162,161,161,0.4) 15%, rgba(162,161,161,0.1) 50%, rgba(162,161,161,0) 70%);
+    opacity: 1;
+    transform: scale(1);
+    transition: inherit;
+    width:30vw;
+    z-index: 100;
+    }

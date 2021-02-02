@@ -1,0 +1,63 @@
+<html>
+   <head>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>  
+      <script src="JavaScript/weather.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <link rel="stylesheet" href="CSS/Generalweather.css" />
+      <link rel="stylesheet" href="CSS/Shadow.css" />
+      <link rel="stylesheet" href="CSS/Fontstyle.css" />
+      <link rel="stylesheet" href="CSS/BottomInfoTiles.css" />
+   </head>
+   <style>
+      #city {
+      font-size: 70px;    
+      }
+   </style>
+   <body onload="GetWeather()">
+      <div class="container-fluid" >
+         <div class="row" >
+            <div class="col-sm" >
+               <div id="GeneralWeather"></div>
+            </div>
+            <div class="row mt-3" style="height:65vh;">
+               <div class="col-lg-12 d-flex flex-wrap align-items-center" >
+                  <img id="image" class="rounded mx-auto d-block" alt="sun">
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-sm">
+                  <p id="city" class="m-5"></p>
+               </div>
+               <div class="col-sm" id="city" >
+                  <p id="temperature" class="m-5" style="float:right"></p>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-sm-4 d-flex align-items-stretch" >
+               <div id="tempContainer" class="card mb-4 box-shadow h-100">
+                  <div >
+                     <p id="feelsLikeTemperature"></p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-4 d-flex align-items-stretch">
+               <div id="windContainer" class="card mb-4 box-shadow h-100">
+                  <div >
+                     <p id="wind"></p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-4 d-flex align-items-stretch">
+               <div id="humidityContainer" class="card mb-4 box-shadow h-100">
+                  <div >
+                     <p id="Humidity"></p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+   </body>
+</html>
