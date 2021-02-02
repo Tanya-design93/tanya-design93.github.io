@@ -62,7 +62,7 @@ function WeatherImage(weatherMain)
     }
     else if("Snow".localeCompare(weatherMain) == 0) 
     {     
-        weatherImage.src = ".//images/snow.png ";
+        weatherImage.src = ".//images/Snow.png ";
         document.body.style.backgroundImage = setGrad("#8cd4e6", "#dcf0f5"); 
         setBottomTiles("tempContainer","cardbodysnow");
         setBottomTiles("windContainer","cardbodysnow");
