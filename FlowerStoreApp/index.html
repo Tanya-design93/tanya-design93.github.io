@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <style>
+         body {
+         background-color:#9dc2af;
+         }
+         h1 {
+         color: rgb(226, 224, 224);
+         text-align: center;
+         font-size:80px;
+         } 
+         p {
+         color: rgb(39, 38, 38);
+         text-align:center;
+         font-size: 50px;
+         }
+         .button {
+         border: none;
+         color:#f7e3e0;
+         padding: 20px 80px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 40px;
+         border-radius: 12px;
+         transition-duration: 0.4s;
+         cursor: pointer;
+         }
+         .button1 {
+         background-color:#9dc2af; 
+         color: rgb(43, 42, 42); 
+         border: 2px solid rgb(36, 35, 35);
+         }
+         .button1:hover {
+         background-color: #f1d6d6;
+         color: rgb(44, 42, 42);
+         }
+      </style>
+   </head>
+   <body>
+      <div class ="container-fluid">
+         <div class ="row">
+            <div class="col-sm-6 p-5"> 
+            </div>
+         </div>
+         <div class ="row p-5"></div>
+         <div class ="row p-2"></div>
+         <div class ="row">
+            <div class = "col-sm p-5">
+               <img src="images/Pinkaloe.png" class="rounded mx-auto d-block" width="500vw" alt="sun">
+            </div>
+         </div>
+         <div class ="row p-4"></div>
+         <div class ="row">
+            <div class = "col-sm p-5">
+               <h1>Plantify</h1>
+            </div>
+         </div>
+      </div>
+      <div class ="row p-5"></div>
+      <div class ="row p-3"></div>
+      <div class ="row">
+         <div class = "col-sm p-5">
+            <button class="button button1 mx-auto d-block btn-lg" id="getStartedButton">Get Started</button>
+         </div>
+      </div>
+      </div> 
+   </body>
+   <script>
+      document.getElementById("getStartedButton").addEventListener("click",function(){ document.location.href = "/Filter.html";})
+   </script>
+</html>

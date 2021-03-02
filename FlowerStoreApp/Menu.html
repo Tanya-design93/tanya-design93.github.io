@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      <script type="module" src="/PlantObj.js"></script>
+      <script type="module" src="/CreateFlowerElement.js"></script>
+      <link rel="stylesheet" href="/CSS/ImageSize.css">
+      <link rel="stylesheet" href="/CSS/no-gutters.css">
+      <style>
+         h1 {
+         color:#85929c;
+         text-align: left;
+         } 
+         .div2 {
+         width: 300px;
+         height: 100px;  
+         padding: 50px;
+         border: 1px solid red;
+         }
+         body{
+         background-color: whitesmoke;
+         }
+      </style>
+   </head>
+   <body>
+      <div class="container">
+         <div class="row">
+            <div class="col-sm-12 pt-5" >
+               <h1>Discover</h1>
+            </div>
+            <div class="col-sm-12" >
+               <div class="row">
+                  <div class="col-xs-6 col-md-12" style="padding-right:2vw;padding-left:2vw;">
+                     <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search" name="searchBar" id="txtSearch"/>
+                        <div class="input-group-btn">
+                           <button class="btn btn-primary" id="SearchForPlant" style="background-color: rgb(219, 202, 201);" >
+                           <span class="glyphicon glyphicon-search"></span>
+                           </button>         
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+      <div class ="container">
+         <div class ="row pt-3">
+            <div class="col-3" > 
+               <button class ="btn " style="width:100%;"id="AllPlants"> All plants</button>
+            </div>
+            <div class="col-3">
+               <button class ="btn" style="width:100%;"id="Plant">Deciduous</button>
+            </div>
+            <div class="col-3"> 
+               <button class ="btn" style="width:100%;"id="Cactus"> Cactus</button>
+            </div>
+            <div class="col-3" > 
+               <button class ="btn" style="width:100%;"id="Succulent">Succulent</button>  
+            </div>
+         </div>
+         <div id="plantStore" class ="row"></div>
+         <!-- Modal -->
+         <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+               <!-- Modal content-->
+               <div class="modal-content">
+                  <!-- Close button-->
+                  <div class="modal-header">
+                     <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <!--Body of modal-->
+                  <div class="modal-body">
+                     <div id="modalFlower"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>

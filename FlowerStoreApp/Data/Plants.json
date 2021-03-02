@@ -1,0 +1,182 @@
+{
+    "Plants":[
+       {
+          "name":"Bamboo",
+          "amountOfSunNeeded":"Shade",
+          "wateringFrequency":"Temperate",
+          "plantType": "Plant",
+          "origin":"Asia",
+          "image":"bamboo.png",
+          "description":"Bamboos are a diverse group of evergreen perennial flowering plants in the subfamily Bambusoideae of the grass family Poaceae. The origin of the word 'bamboo' is uncertain, but it probably comes from the Dutch or Portuguese language, which originally borrowed it from Malay or Kannada.[3],In bamboo, as in other grasses, the internodal regions of the stem are usually hollow and the vascular bundles in the cross-section are scattered throughout the stem instead of in a cylindrical arrangement. The dicotyledonous woody xylem is also absent. The absence of secondary growth wood causes the stems of monocots, including the palms and large bamboos, to be columnar rather than tapering."
+       },
+       {
+          "name":"Fiddle-Leaf fig",
+          "amountOfSunNeeded":"Bright light",
+          "plantType": "Plant",
+          "wateringFrequency":"Sparse",
+          "origin":"Africa",
+          "image":"FiddleLeafFig.png",
+          "description":"Homeowners rely on Ficus lyrata to provide a fresh, modern twist in their decor, even in smaller spaces. Natural light is important for the large leaves to engage in photosynthesis, so place it close to a south or east-facing window. Allow soil to dry between waterings."
+       },
+       {
+          "name":"Basil",
+          "amountOfSunNeeded":"Bright light",
+          "plantType": "Plant",
+          "wateringFrequency":"Temperate",
+          "origin":"Africa",
+          "image":"basil.png",
+          "description":"Your favorite herb just became your favorite houseplant. Basil loves warm temperatures and lots of light. Trim off flowers to keep those fragrant leaves coming. Try cinnamon basil or purple basil for something different."
+       },
+       {
+          "name":"Aloe vera",
+          "amountOfSunNeeded":"Bright light",
+          "plantType": "Succulent",
+          "wateringFrequency":"Sparse",
+          "origin":"Middle East",
+          "image":"aloevera.png",
+          "description":"The gel from cut Aloe barbadensis leaves is widely used in first aid remedies and cosmetics, adding function to form as a houseplant. Like most succulents, it prefers dry sandy soil and bright light. Healthy plants will produce pup offsets to replace any leaves you might harvest."
+       },
+       {
+          "name":"Monstera",
+          "amountOfSunNeeded":"Diffused light",
+          "plantType": "Plant",
+          "wateringFrequency":"Frequent",
+          "origin":"America",
+          "image":"Monstera.png",
+          "description":"Monstera is a genus of 45 species of flowering plants in the arum family, Araceae, native to tropical regions of the Americas. The genus is named from the Latin word for 'monstrous' or 'abnormal', and refers to the unusual leaves with natural holes that members of the genus have.  They are herbs or evergreen vines, growing to heights of 20 metres (66 ft) in trees, climbing by means of aerial roots which act as hooks over branches; these roots will also grow into the soil to help support the plant. Since the plant roots both into the soil and over trees, it is considered a hemiepiphyte. The leaves are alternate, leathery, dark green, very large, from 25–90 centimetres (9.8–35.4 in) long (up to 130 centimetres (51 in) long in M. dubia) and 15–75 centimetres (5.9–29.5 in) broad, often with holes in the leaf blade. The flowers are borne on a specialised inflorescence called a spadix, 5–45 centimetres (2.0–17.7 in) long; the fruit is a cluster of white berries, edible in some species.  Large Monstera deliciosa They are commonly grown indoors as houseplants. The best-known representative of the genus, Monstera deliciosa, is also cultivated for its edible fruit which tastes like a combination of banana and pineapple."
+       },
+       {
+          "name":"Croton",
+          "amountOfSunNeeded":"Bright light",
+          "plantType": "Plant",
+          "wateringFrequency":"Temperate",
+          "origin":"Asia",
+          "image":"Croton.png",
+          "description":"There's no doubt croton is one of the most popular houseplants because it's so colorful! Featuring leaves dramatically shaded in golden, orange, red, and purple hues, it's perfect for making any indoor space feel like you're deep in a tropical rainforest. Despite its bold appearance, croton is easy to grow, especially in a warm, humid environment (though it takes average household or office conditions with ease)."
+       },
+       {
+          "name":"Ivygeranium",
+          "amountOfSunNeeded":"Diffused light",
+          "plantType": "Plant",
+          "wateringFrequency":"Temperate",
+          "origin":"Europe",
+          "image":"ivygeranium.png",
+          "description":"English ivy (Hedera helix) is a very vigorous and aggressive woody evergreen vine. Outdoors, English ivy is used as an ornamental ground-cover or elegant green covering for stone or brick walls. This is the plant that inspired the Ivy League colleges nickname. English ivy is also a very popular indoor houseplant or for use in outdoor hanging baskets. A European native, English ivy was brought to the New World by colonial settlers but soon naturalized into the wild. "
+       },
+       {
+          "name":"Lucky bamboo",
+          "amountOfSunNeeded":"Diffused light",
+          "plantType": "Plant",
+          "wateringFrequency":"Frequent",
+          "origin":"Africa",
+          "image":"Luckybamboo.png",
+          "description":"You don't have to look very hard to find lucky bamboo nowadays—these plants can be spotted in offices, on desks, in businesses, and in homes pretty much daily. Lucky bamboo plants are said to bring good luck and fortune to those that own them, especially if the plants were given as gifts. It also helps that they have a well-earned reputation as nearly indestructible—these tough stalks can survive in vases of pure water or in containers of soil, and in a wide variety of light conditions. Even a poorly kept lucky bamboo plant will live for a long time before it finally succumbs."
+       },
+       {
+          "name":"Umbrella plant",
+          "amountOfSunNeeded":"Diffused light",
+          "plantType": "Plant",
+          "wateringFrequency":"Temperate",
+          "origin":"Australia",
+          "image":"Umbrellaplant.png",
+          "description":"Schefflera is a genus of tropical plants including two species that make wonderful tropical houseplants. The larger Schefflera actinophylla (sometimes called the umbrella plant or umbrella tree) features long, shiny, oval green leaves that droop gracefully from a central stalk, resembling an umbrella. A mature Schefflera might have 12 to 16 leaflets from a single stalk, while an immature Schefflera is more likely to have four to six. Schefflera arboricola (sometimes called dwarf Schefflera) feature smaller, glossy leaves, sometimes with creamy variegation. Other than the smaller size, it looks very similar to the taller cousin."
+       },
+      
+       {
+          "name":"Money tree",
+          "amountOfSunNeeded":"Diffused light",
+          "plantType": "Plant",
+          "wateringFrequency":"Temperate",
+          "origin":"America",
+          "image":"Moneytree.png",
+          "description":"The Money Tree is a perfect indoor foliage plant to give you a tropical feel. With its braided stem and bright green palm looking leaves, it looks both like a tree and palm. Native from Mexico to northern South America, the Money Tree is also very popular in Taiwan and other East Asian countries. The Money Tree gets its name from the Feng Shui belief that it will bring positive energy and good luck to the owner."
+       },
+       {
+          "name":"Oregano",
+          "amountOfSunNeeded":"Bright light",
+          "plantType": "Plant",
+          "wateringFrequency":"Sparse",
+          "origin":"America",
+          "image":"Oregano.png",
+          "description":"is a perennial herb with rose-purple or white flowers and a taste reminiscent of thyme. Here’s how to grow oregano plants in your garden—plus, delicious recipes using oregano. Oregano’s taste is zesty and strong and is commonly used in Italian dishes. It is a hardy plant and makes for a good ground cover."
+       },
+       {
+          "name":"Pilea",
+          "amountOfSunNeeded":"Diffused light",
+          "plantType": "Plant",
+          "wateringFrequency":"Frequent",
+          "origin":"Asia",
+          "image":"Pilea.png",
+          "description":"Pilea (Pilea spp.) is a genus consisting of more than 600 species of frost-tender, tropical foliage plants—including both upright bushy types and trailing varieties. Several smaller species are commonly cultivated as houseplants because they are easy to grow and care for. They make great starter plants for inexperienced growers. They are best planted outdoors in the spring, and indoors you typically can start a plant at any point during the growing season. In general, these plants are moderate to fast growers. Pilea foliage varies considerably, ranging from 3-inch textured and lance-shaped leaves to tiny heart-shaped and moss-like foliage. Pileas occasionally bloom, but their pink or cream flowers are very tiny and often go unnoticed."
+       },
+       {
+          "name":"Philodendron",
+          "amountOfSunNeeded":"Diffused light",
+          "plantType": "Plant", 
+          "wateringFrequency":"Temperate",
+          "origin":"America",
+          "image":"Philodendron.png",
+          "description":"The Philodendron genus contains hundreds of species of beautiful foliage plants. And many are commonly grown as houseplants. In fact, they’re often touted for their air-cleaning abilities indoors. Their leaves are typically large, green, and glossy, adding a touch of their native tropical jungles to your home.  There are two basic types of philodendrons: the vining plants and the non-climbing plants. The vining plants grow vines of several feet and need some sort of support structure to climb on, such as a trellis or around a basket. The non-climbing types have an upright growth habit and make for excellent foliage plants in containers. In general, philodendrons have a fast growth rate. They’re best planted in the spring, but houseplants typically can be started at any time of year with success."
+       },
+       
+       {
+          "name":"Golden Barrel",
+          "amountOfSunNeeded":"Bright light",
+          "plantType": "Cactus",
+          "wateringFrequency":"Sparse",
+          "origin":"Europe",
+          "image":"Goldenbarrel.png",
+          "description":"The Golden Barrel cactus is popular due to its exotic appearance and hardy nature. It is native to arid desert regions but is now rarely found in the wild. Instead, it is commonly seen in gardens and homes across North America and Europe. This cactus has a spherical shape with deeply ribbed lobes and is coated with evenly spaced rows of golden spines, making it look like a pincushion. It is almost perfectly round when it is young, but as it matures, it usually stretches and becomes more oval.  It can grow up to three feet in height and diameter. Its bright yellow, funnel-shaped flower blooms from the crown in mid-summer. And when it is fertilized, the flower produces a fleshy yellow fruit that bears seeds."
+       },
+
+       {
+        "name":"Moon Cactus ",
+        "amountOfSunNeeded":"Diffused light",
+        "wateringFrequency":"Sparse",
+        "origin":"America",
+        "plantType": "Cactus",
+        "image":"Gymnocalyciummihanovichii.png",
+        "description":"Moon cactus, also known as Hibotan cactus or ruby ball cactus, is a hybrid and grafted variety of cactus. It is one of the most popular and easiest to recognize because of its perfectly spherical shape with thorns and bright colors, due mainly to its inability to produce chlorophyll. Its inability to photosynthesize means that the moon cactus needs to be grafted onto a compatible rootstock that produces plenty of chlorophyll upon which the moon cactus can sustain itself."
+     },
+
+     {
+        "name":"Bunny ear cactus",
+        "amountOfSunNeeded":"Bright light",
+        "wateringFrequency":"Sparse",
+        "origin":"America",
+        "plantType": "Cactus",
+        "image":"Bunnyearcactus.png",
+        "description":"Bunny Ear cactus, also known as Angel’s Wings and Polka-dot Cactus, originated from northern Mexico and the desert regions that stretch to Arizona. This cactus has no central stem, and its body is made up of individual oval-shaped segments. New segments form on top of existing segments, and they usually come in pairs, just like a bunny’s pair of ears. The new segment growths are usually red, but they turn dark green as they mature and are covered with closely spaced polka-dot-like glochids, which are tiny mounds of prickles. These fuzzy glochids resemble bunny hair.  They are loosely attached, so a strong breeze can easily blow them off.Flowers, meanwhile, sprout from the terminal ends of the Bunny Ear’s segments. Budding starts in late spring, and flowers bloom in early summer. Its 2-inch-wide flowers are creamy yellow that fades to peach. They will eventually turn into 2-inch-long purplish-red fruits."
+     },
+
+     {
+        "name":"San pedro ",
+        "amountOfSunNeeded":"Diffused light",
+        "wateringFrequency":"Sparse",
+        "origin":"America",
+        "plantType": "Cactus",
+        "image":"Sanpedro.png",
+        "description":"San Pedro (Trichocereus/Echinopsis pachanoi) is a thin, columnar cactus native to the Andes in South America that contains mescaline—one of the longest-studied psychedelics in the world—and the first to be labeled with the term 'psychedelic.'San Pedro has been an important element to the spiritual ceremonies of various indigenous cultures for thousands of years. In the context of these ceremonies, the San Pedro experience is known for being empathogenic (similar to MDMA) and potentially life-changing, promoting radical introspection, healing, and a sense of wonder and awe.Traditionally, San Pedro has been consumed either on its own or with other plants in a ceremonial brew called cimora. While its use as a psychedelic is technically illegal in the US, the plant itself can be found decorating yards and gardens across the country. It can also be found in abundance at the witches’ markets of Peru (as San Pedro or Huachuma), Bolivia (as Achuma), and Ecuador (as Aguacolla or Gigantón)."
+     },
+
+     {
+        "name":"Echeveria",
+        "amountOfSunNeeded":"Bright light",
+        "wateringFrequency":"Sparse",
+        "origin":"America",
+        "plantType": "Succulent",
+        "image":"Echeveria.png",
+        "description":"Echeveria spp. stem from thick-leaved rosettes. The leaves are fleshy and have a waxy cuticle on the exterior. Often the leaves are colored and a firm touch can mar the skin and leave marks. The Echeveria succulent plant is slow growing and usually doesn’t exceed 12 inches (30 cm.) in height or spread. Native from Texas to Central America, the plants prefer desert conditions, but will tolerate periods of moisture as long as they are allowed to dry out before applying more water. Growing Echeveria in an unglazed clay pot, which will allow water to evaporate, is ideal. Otherwise, they need full sun and well drained soil. There are 150 cultivated varieties of the plants, one of which is probably right for you.Read more at Gardening Know How: Care Instructions For Echeveria – Echeveria Succulent Plant Information."
+     },
+
+     {
+        "name":"Crown of Thorns (euphorbia milii)",
+        "amountOfSunNeeded":"Bright light",
+        "wateringFrequency":"Sparse",
+        "origin":"America ",
+        "plantType": "Succulent",
+        "image":"CrownofThorns.png",
+        "description":"The crown of thorns is a great houseplant because it adjusts well to dry indoor environments and room temperatures. For the best care and results, place this succulent near a window where it can get about three to four hours of sunlight a day. The crown of thorns is very lenient when it comes to missed waterings, but make sure to only water the plant when its soil is completely dry. In Thailand there is a legend that the number of flowers that bloom on a crown of thorns predicts the future of the plant-keeper. So, make sure to take good care of this one! "
+     }
+    ]
+ }
