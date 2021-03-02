@@ -195,7 +195,7 @@ function CreateWaterFrequencyForPlant(plantObj) {
 	var wateringFrequency = document.createElement("p");
 	wateringFrequency.innerHTML = plantObj.wateringFrequency;
 
-	div.appendChild(CreateIcon("url('/images/watericon.png')"));
+	div.appendChild(CreateIcon("url('/PlantApp/images/watericon.png')"));
 	div.appendChild(wateringFrequency);
 	return div;
 }
@@ -204,7 +204,7 @@ function CreateBrightForPlant(plantObj) {
 	var div = document.createElement("div")
 	var plantAge = document.createElement("p");
 	plantAge.innerHTML = plantObj.amountOfSunNeeded;
-	div.appendChild(CreateIcon("url('/images/Sun.png')"));
+	div.appendChild(CreateIcon("url('/PlantApp/images/Sun.png')"));
 	div.appendChild(plantAge);
 	return div;
 }
@@ -213,7 +213,7 @@ function CreateOriginForPlant(plantObj) {
 	var div = document.createElement("div");
 	var plantorigin = document.createElement("p");
 	plantorigin.innerHTML = plantObj.origin;
-	div.appendChild(CreateIcon("url('/images/locationicon.png')"));
+	div.appendChild(CreateIcon("url('/PlantApp/images/locationicon.png')"));
 	div.appendChild(plantorigin);
 	return div;
 }
