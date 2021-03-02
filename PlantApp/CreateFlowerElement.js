@@ -1,6 +1,6 @@
 import {
 	Plant
-} from '/PlantObj.js';
+} from '/PlantApp/PlantObj.js';
 const prefix = "images/";
 const columnImageSizeSmallXS = "col-2";
 const columnImageSizeSmall = "col-sm-2";
