@@ -237,7 +237,7 @@ function FilterByPlantType(plant, switchToMainPage) {
 	if (document.URL.includes("Filter.html") && switchToMainPage) {
 
 		setCookie("name", plant, 365);
-		document.location.href = "PlantApp/Menu.html";
+		document.location.href = "/PlantApp/Menu.html";
 	}
 	setTimeout(function () {
 		loadPlantTable(plant);
