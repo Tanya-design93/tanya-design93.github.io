@@ -1,0 +1,27 @@
+.App {
+
+  height:65vh ;
+  background-image:url('./moviebackground.jpg');
+  background-position:center;
+  background-size:cover;
+  filter: brightness(70%);
+  display:flex;
+  justify-content: center;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+.AlignSearchInputCenter{
+  display:flex;
+  align-self: center;
+}
