@@ -1,0 +1,94 @@
+@media (min-width: 0px) { 
+.aboutMeTitle {
+    background-image: url('./images/Profile.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    height:10vh;
+    z-index: -22;
+    background-position-x: center;
+    position: relative;
+
+     font-family: 'Playfair Display', Oxygen;
+  
+}
+#aboutMeText{
+    position: absolute;
+    bottom: 0;
+    left:50%;
+    font-family: 'Playfair Display', Oxygen;
+}
+
+}
+
+
+@media (min-width: 750px) { 
+    .aboutMeTitle {
+        background-image: url('./images/Profile.png');
+        background-size:contain;
+        background-repeat: no-repeat;
+        height:10vh;
+        z-index: -22;
+        background-position-x: center;
+        position: relative;
+    
+         font-family: 'Playfair Display', Oxygen;
+      
+    }
+    #aboutMeText{
+        position: absolute;
+        bottom: 0;
+        left:50%;
+        font-family: 'Playfair Display', Oxygen;
+    }
+    
+}        
+    
+
+
+@media (min-width: 970px) { 
+    .aboutMeTitle {
+        background-image: url('./images/Profile.png');
+        background-size:contain;
+        background-repeat: no-repeat;
+        height:10vh;
+        z-index: -22;
+        background-position-x: center;
+        position: relative;
+    
+         font-family: 'Playfair Display', Oxygen;
+      
+    }
+    #aboutMeText{
+        position: absolute;
+        bottom: 0;
+        left:50%;
+        font-family: 'Playfair Display', Oxygen;
+    }
+    
+}      
+    
+    
+    
+@media (min-width: 1170px) { 
+    .aboutMeTitle {
+        background-image: url('./images/Profile.png');
+        background-size:contain;
+        background-repeat: no-repeat;
+        height:10vh;
+        z-index: -22;
+        background-position-x: center;
+        position: relative;
+    
+         font-family: 'Playfair Display', Oxygen;
+      
+    }
+    #aboutMeText{
+        position: absolute;
+        bottom: 0;
+        left:50%;
+        font-family: 'Playfair Display', Oxygen;
+    }
+    
+}
+
+  

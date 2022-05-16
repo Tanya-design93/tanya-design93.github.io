@@ -1,0 +1,366 @@
+
+
+  @media (min-width: 0px) { 
+    #resumeButton 
+{
+    text-decoration: underline;
+}
+
+#resumeButton:hover
+{
+    font-size: 50px;
+}
+
+
+a{
+    color:black;
+}
+
+.button {
+    position: relative;
+    background-color: #f5d57e;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .button:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+
+  .projectButton {
+    position: relative;
+    background-color: #f5d57e;
+    border: none;
+    font-size: 23px;
+    color: #FFFFFF;
+    padding: 10px;
+    margin-right: 2vw;
+    width: 155px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .projectButton:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .projectButton:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+       
+}        
+
+
+
+  @media (min-width: 750px) { 
+    #resumeButton 
+    {
+        text-decoration: underline;
+    }
+    
+    #resumeButton:hover
+    {
+        font-size: 50px;
+    }
+    
+    
+    a{
+        color:black;
+    }
+    
+    .button {
+        position: relative;
+        background-color: #f5d57e;
+        border: none;
+        font-size: 30px;
+        color: #FFFFFF;
+        padding: 20px;
+        width: 250px;
+        text-align: center;
+        transition-duration: 0.4s;
+        text-decoration: none;
+        overflow: hidden;
+        cursor: pointer;
+      }
+      
+      .button:after {
+        content: "";
+        background: #f1f1f1;
+        display: block;
+        position: absolute;
+        padding-top: 300%;
+        padding-left: 350%;
+        margin-left: -20px !important;
+        margin-top: -120%;
+        opacity: 0;
+        transition: all 0.8s
+      }
+      
+      .button:active:after {
+        padding: 0;
+        margin: 0;
+        opacity: 1;
+        transition: 0s
+      }
+    
+      .projectButton {
+        position: relative;
+        background-color: #f5d57e;
+        border: none;
+        font-size: 23px;
+        color: #FFFFFF;
+        padding: 10px;
+        margin-right: 2vw;
+        width: 155px;
+        text-align: center;
+        transition-duration: 0.4s;
+        text-decoration: none;
+        overflow: hidden;
+        cursor: pointer;
+      }
+      
+      .projectButton:after {
+        content: "";
+        background: #f1f1f1;
+        display: block;
+        position: absolute;
+        padding-top: 300%;
+        padding-left: 350%;
+        margin-left: -20px !important;
+        margin-top: -120%;
+        opacity: 0;
+        transition: all 0.8s
+      }
+      
+      .projectButton:active:after {
+        padding: 0;
+        margin: 0;
+        opacity: 1;
+        transition: 0s
+      }
+           
+     
+}        
+    
+
+
+@media (min-width: 970px) { 
+  #resumeButton 
+  {
+      text-decoration: underline;
+  }
+  
+  #resumeButton:hover
+  {
+      font-size: 50px;
+  }
+  
+  
+  a{
+      color:black;
+  }
+  
+  .button {
+      position: relative;
+      background-color: #f5d57e;
+      border: none;
+      font-size: 40px;
+      color: #FFFFFF;
+      padding: 20px;
+      width: 300px;
+      text-align: center;
+      transition-duration: 0.4s;
+      text-decoration: none;
+      overflow: hidden;
+      cursor: pointer;
+    }
+    
+    .button:after {
+      content: "";
+      background: #f1f1f1;
+      display: block;
+      position: absolute;
+      padding-top: 300%;
+      padding-left: 350%;
+      margin-left: -20px !important;
+      margin-top: -120%;
+      opacity: 0;
+      transition: all 0.8s
+    }
+    
+    .button:active:after {
+      padding: 0;
+      margin: 0;
+      opacity: 1;
+      transition: 0s
+    }
+  
+    .projectButton {
+      position: relative;
+      background-color: #f5d57e;
+      border: none;
+      font-size: 23px;
+      color: #FFFFFF;
+      padding: 10px;
+      margin-right: 2vw;
+      width: 155px;
+      text-align: center;
+      transition-duration: 0.4s;
+      text-decoration: none;
+      overflow: hidden;
+      cursor: pointer;
+    }
+    
+    .projectButton:after {
+      content: "";
+      background: #f1f1f1;
+      display: block;
+      position: absolute;
+      padding-top: 300%;
+      padding-left: 350%;
+      margin-left: -20px !important;
+      margin-top: -120%;
+      opacity: 0;
+      transition: all 0.8s
+    }
+    
+    .projectButton:active:after {
+      padding: 0;
+      margin: 0;
+      opacity: 1;
+      transition: 0s
+    }
+          
+}      
+    
+    
+    
+@media (min-width: 1170px) { 
+  #resumeButton 
+  {
+      text-decoration: underline;
+  }
+  
+  #resumeButton:hover
+  {
+      font-size: 50px;
+  }
+  
+  
+  a{
+      color:black;
+  }
+  
+  .button {
+      position: relative;
+      background-color: #f5d57e;
+      border: none;
+      font-size: 50px;
+      color: #FFFFFF;
+      padding: 20px;
+      width: 350px;
+      text-align: center;
+      transition-duration: 0.4s;
+      text-decoration: none;
+      overflow: hidden;
+      cursor: pointer;
+    }
+    
+    .button:after {
+      content: "";
+      background: #f1f1f1;
+      display: block;
+      position: absolute;
+      padding-top: 300%;
+      padding-left: 350%;
+      margin-left: -20px !important;
+      margin-top: -120%;
+      opacity: 0;
+      transition: all 0.8s
+    }
+    
+    .button:active:after {
+      padding: 0;
+      margin: 0;
+      opacity: 1;
+      transition: 0s
+    }
+  
+    .projectButton {
+      position: relative;
+      background-color: #f5d57e;
+      border: none;
+      font-size: 23px;
+      color: #FFFFFF;
+      padding: 10px;
+      margin-right: 2vw;
+      width: 155px;
+      text-align: center;
+      transition-duration: 0.4s;
+      text-decoration: none;
+      overflow: hidden;
+      cursor: pointer;
+    }
+    
+    .projectButton:after {
+      content: "";
+      background: #f1f1f1;
+      display: block;
+      position: absolute;
+      padding-top: 300%;
+      padding-left: 350%;
+      margin-left: -20px !important;
+      margin-top: -120%;
+      opacity: 0;
+      transition: all 0.8s
+    }
+    
+    .projectButton:active:after {
+      padding: 0;
+      margin: 0;
+      opacity: 1;
+      transition: 0s
+    }
+       
+}
+
+  

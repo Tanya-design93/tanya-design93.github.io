@@ -1,0 +1,10 @@
+.navbar-style:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: #f5d57e;
+    font-size: 40px;
+}
+
+.navbar {
+    font-size: 30px;
+}

@@ -1,0 +1,104 @@
+
+@media (min-width: 0px) { 
+    #PaperPlane {
+        height:7vh ;
+        width:5vw ;  
+    }
+    .box {
+        /* align-self: flex-end; */
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+    .bounce-1 {
+        animation-name: bounce-1;
+        animation-timing-function: linear;
+    }
+    @keyframes bounce-1 {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-100px); }
+        100% { transform: translateY(0); }
+    }   
+    
+
+    
+}        
+    
+
+@media (min-width: 750px) { 
+    
+    #PaperPlane {
+        height:7vh ;
+        width:5vw ;  
+    }
+    .box {
+        /* align-self: flex-end; */
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+    .bounce-1 {
+        animation-name: bounce-1;
+        animation-timing-function: linear;
+    }
+    @keyframes bounce-1 {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-100px); }
+        100% { transform: translateY(0); }
+    }   
+    
+}        
+    
+
+
+@media (min-width: 970px) { 
+   
+    #PaperPlane {
+        height:7vh ;
+        width:5vw ;  
+    }
+    .box {
+        /* align-self: flex-end; */
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+    .bounce-1 {
+        animation-name: bounce-1;
+        animation-timing-function: linear;
+    }
+    @keyframes bounce-1 {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-100px); }
+        100% { transform: translateY(0); }
+    }
+}      
+    
+    
+    
+@media (min-width: 1170px) { 
+    #PaperPlane {
+        height:7vh ;
+        width:5vw ;  
+    }
+    .box {
+        /* align-self: flex-end; */
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+    .bounce-1 {
+        animation-name: bounce-1;
+        animation-timing-function: linear;
+    }
+    @keyframes bounce-1 {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-100px); }
+        100% { transform: translateY(0); }
+    }
+}
+
+  
+
+
+
+
+
+
+

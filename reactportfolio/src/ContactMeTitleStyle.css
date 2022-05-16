@@ -1,0 +1,43 @@
+
+
+@media (min-width: 0px) { 
+    #ContactMeTitle {
+        background-color:#3A4750 ;
+        
+    }  
+    #getintouchcolor {
+        color:white;
+    }
+}        
+    
+
+@media (min-width: 750px) { 
+    
+    #ContactMeTitle {
+        background-color:#3A4750 ;
+        
+    } 
+    
+}        
+    
+
+
+@media (min-width: 970px) { 
+    #ContactMeTitle {
+        background-color:#3A4750 ;
+        
+    }   
+    
+}      
+    
+    
+    
+@media (min-width: 1170px) { 
+    #ContactMeTitle {
+        background-color:#3A4750 ;
+        
+    }    
+
+}
+
+  

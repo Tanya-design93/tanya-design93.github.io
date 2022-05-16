@@ -1,0 +1,16 @@
+.socialHyperlink{
+    text-decoration: none; 
+  
+    
+}
+
+.socialHyperlink:hover{
+    text-decoration: none; 
+    color:inherit;
+   
+}
+
+.fa{
+font-size:3vw;
+}
+

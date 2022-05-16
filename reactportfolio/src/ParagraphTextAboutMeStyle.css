@@ -1,0 +1,35 @@
+
+
+@media (min-width: 0px) { 
+    #aboutMeParagraph {
+        font-size: 15px;
+        word-wrap: normal;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+  }
+
+
+
+  @media (min-width: 750px) { 
+    #aboutMeParagraph {
+        font-size: 18px;
+        word-wrap: normal;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+  }
+
+  @media (min-width: 970px) { 
+    #aboutMeParagraph {
+        font-size: 20px;
+        word-wrap: normal;
+        font-family: Arial, Helvetica, sans-serif;
+    } 
+  }
+
+  @media (min-width: 1170px) { 
+    #aboutMeParagraph {
+        font-size: 25px;
+        word-wrap: normal;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+  }
